@@ -3,14 +3,14 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    background-color: #000;
+    background-color: black;
 }
 a {
     color: whitesmoke;
 }
 .web {
     display: inline-block;
-    width:25em;
+    width: 45%;
     box-shadow: 0 0 10px #fff;
     margin-right: 10px;
     margin-bottom: 10px;

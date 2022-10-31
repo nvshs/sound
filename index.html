@@ -108,12 +108,23 @@
             </div>
         </div>
         <script>
-                 function share() {
-                     Navigator.share('nvshs.github.io')
-                  }
+            var theme = "dark";
+            
+            function setTheme() {
+                if (theme == "dark") {
+                    theme = "light"
+                    document.documentElement.style.setProperty('--background', '#f5f6f7');
+                    document.documentElement.style.setProperty('--foreground', '#101010');
+                }
+                if (theme == "light") {
+                    theme = "dark"
+                    document.documentElement.style.setProperty('--foreground', '#f5f6f7');
+                    document.documentElement.style.setProperty('--background', '#101010');
+                }
+            }
         </script>
         <h2><a href="mailto:?to=&body=Check%20out%20nvshs.github.io,&subject=This%20website%20is%20awsome.">Share</a></h2>
-        <h2><a href="https://nvshs.github.io/portal">Feeling Brave? Try light mode</a></h2>
+        <h2><a onclick="setTheme()">Feeling Brave? Try light mode</a></h2>
         <h2><a href="https://nvshs.github.io/chat">Chat Room (BETA)</a></h2>
     </body>
 </html>

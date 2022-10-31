@@ -8,7 +8,7 @@ body {
 a {
     color: whitesmoke;
 }
-.web {
+.web, .ad {
     display: inline-block;
     width: 400px;
     box-shadow: 0 0 10px #fff;

@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
+::root {
+    --background: #1b1b32;
+    --foreground: #f5f6f7;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
-    color: white;
-    background-color: black;
+    color: var(--foreground);
+    background-color: var(--background);
 }
 a {
-    color: whitesmoke;
+    color: var(--foreground);
 }
 .web, .ad {
     display: inline-block;

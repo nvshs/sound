@@ -1,30 +1,38 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #101010;
-        --foreground: #f5f6f7;
-    }
-    body {
-        font-family: 'Ubuntu', sans-serif;
-        color: var(--foreground);
-        background-color: var(--background);
-    }
-    a {
-        color: var(--foreground);
-    }
-    .web, .ad {
-        display: inline-block;
-        width: 400px;
-        box-shadow: 0 0 10px var(--foreground);
-        margin-right: 10px;
-        margin-bottom: 10px;
-        border-radius: 10px;
-    }
-    .web-text {
-        padding-left: 1em;
-    }    
+:root {
+    --background: #101010;
+    --foreground: #f5f6f7;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--foreground);
+    background-color: var(--background);
+}
+a {
+    color: var(--foreground);
+}
+.web, .ad {
+    display: inline-block;
+    width: 400px;
+    box-shadow: 0 0 10px var(--foreground);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.button {
+    display: inline-block;
+    box-shadow: 0 0 10px var(--foreground);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.button-text {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.web-text {
+    padding-left: 1em;
 }
 
 @media (prefers-color-scheme: light) {

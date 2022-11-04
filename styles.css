@@ -12,6 +12,9 @@ body {
 a {
     color: var(--foreground);
 }
+audio {
+    padding-bottom: 1em;
+}
 .sound, .ad {
     display: inline-block;
     width: 400px;

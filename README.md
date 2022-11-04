@@ -1,4 +1,4 @@
-# NVSHS Unblocked
+# NVSHS Sounds
 
-Repo for the nvshs.github.io page.
-A hub for unblocked games at NVSHS
+Repo for the nvshs.github.io/sounds page.
+A hub for unblocked sounds at NVSHS

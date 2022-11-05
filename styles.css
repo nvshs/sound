@@ -15,6 +15,11 @@ a {
 audio {
     padding-bottom: 1em;
 }
+button { 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 .sound, .ad {
     display: inline-block;
     width: 400px;
@@ -30,12 +35,19 @@ audio {
     margin-bottom: 10px;
     border-radius: 10px;
 }
+.sound-controls{
+    margin-bottom: 0.83em;
+    padding-left: 1em;
+}
 .button-text {
     padding-left: 1em;
     padding-right: 1em;
 }
 .sound-text {
     padding-left: 1em;
+}
+.material-symbols-outlined {
+    color: var(--foreground);
 }
 
 @media (prefers-color-scheme: light) {
@@ -61,5 +73,8 @@ audio {
     }
     .sound-text {
         padding-left: 1em;
+    }
+    .material-icons {
+        color: var(--foreground);
     }
 }

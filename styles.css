@@ -48,6 +48,10 @@ button {
 }
 .material-symbols-outlined {
     color: var(--foreground);
+    transition: .5s ease;
+}
+.material-symbols-outlined:hover {
+    transform: scale(1.2);
 }
 
 @media (prefers-color-scheme: light) {
